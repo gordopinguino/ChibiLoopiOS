@@ -10,9 +10,8 @@
 		0F9BCCA025224DD935BCB778 /* Pods_ChibiLoopiOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12FE7731D83A0ECDD212C90E /* Pods_ChibiLoopiOSTests.framework */; };
 		309C54C492B51D0431BDCF06 /* Pods_ChibiLoopiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63CBBB373FB21DDE2D794AE6 /* Pods_ChibiLoopiOS.framework */; };
 		9751CC8977ADEC0A0979F46B /* Pods_ChibiLoopiOS_ChibiLoopiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF908466080B280DC8A8166 /* Pods_ChibiLoopiOS_ChibiLoopiOS.framework */; };
-		A39846F91F52225200A5F5D9 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39846F81F52225200A5F5D9 /* SignUpViewController.swift */; };
-		A39F29731F608FD6004C972F /* CreateAccountDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39F29721F608FD6004C972F /* CreateAccountDetailsViewController.swift */; };
-		A3A62B671F5F0A910066FA5B /* CreateAccountInitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A62B661F5F0A910066FA5B /* CreateAccountInitialViewController.swift */; };
+		A3843A861F72C5A60037166F /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3843A851F72C5A60037166F /* SignInViewController.swift */; };
+		A3843A881F72C7010037166F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3843A871F72C7010037166F /* SignUpViewController.swift */; };
 		A3AD82B21F3298DC0073C0C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AD82B11F3298DC0073C0C2 /* AppDelegate.swift */; };
 		A3AD82B91F3298DC0073C0C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3AD82B71F3298DC0073C0C2 /* Main.storyboard */; };
 		A3AD82BB1F3298DC0073C0C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3AD82BA1F3298DC0073C0C2 /* Assets.xcassets */; };
@@ -22,11 +21,6 @@
 		A3AD82E21F329A9E0073C0C2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AD82E11F329A9E0073C0C2 /* User.swift */; };
 		A3AD82E41F329C3B0073C0C2 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AD82E31F329C3B0073C0C2 /* Post.swift */; };
 		A3B076C11F438A280022D11B /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B076C01F438A280022D11B /* Content.swift */; };
-		A3B076C71F4783AA0022D11B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B076C61F4783AA0022D11B /* HomeViewController.swift */; };
-		A3B076C91F4786220022D11B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B076C81F4786220022D11B /* SearchViewController.swift */; };
-		A3B076CB1F4787910022D11B /* PlaylistsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B076CA1F4787910022D11B /* PlaylistsViewController.swift */; };
-		A3B076CD1F4787AE0022D11B /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B076CC1F4787AE0022D11B /* NotificationsViewController.swift */; };
-		A3B076D01F4787C40022D11B /* UserAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B076CF1F4787C40022D11B /* UserAccountViewController.swift */; };
 		A3B076D21F47A33C0022D11B /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B076D11F47A33C0022D11B /* Car.swift */; };
 		A3B076D41F47A5B40022D11B /* CarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B076D31F47A5B40022D11B /* CarTests.swift */; };
 		FB4BFC8A423B6A8B6F81BDD5 /* Pods_ChibiLoopiOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4B030B75E81968C45177E3B /* Pods_ChibiLoopiOSUITests.framework */; };
@@ -54,9 +48,8 @@
 		2D7AB9D191EFB8AA08B08D12 /* Pods-ChibiLoopiOS-ChibiLoopiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChibiLoopiOS-ChibiLoopiOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChibiLoopiOS-ChibiLoopiOS/Pods-ChibiLoopiOS-ChibiLoopiOS.debug.xcconfig"; sourceTree = "<group>"; };
 		63CBBB373FB21DDE2D794AE6 /* Pods_ChibiLoopiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChibiLoopiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98600004B49153733AE743DD /* Pods-ChibiLoopiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChibiLoopiOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChibiLoopiOS/Pods-ChibiLoopiOS.debug.xcconfig"; sourceTree = "<group>"; };
-		A39846F81F52225200A5F5D9 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
-		A39F29721F608FD6004C972F /* CreateAccountDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountDetailsViewController.swift; sourceTree = "<group>"; };
-		A3A62B661F5F0A910066FA5B /* CreateAccountInitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountInitialViewController.swift; sourceTree = "<group>"; };
+		A3843A851F72C5A60037166F /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		A3843A871F72C7010037166F /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		A3AD82AE1F3298DC0073C0C2 /* ChibiLoopiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChibiLoopiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3AD82B11F3298DC0073C0C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3AD82B81F3298DC0073C0C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -72,11 +65,6 @@
 		A3AD82E11F329A9E0073C0C2 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		A3AD82E31F329C3B0073C0C2 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		A3B076C01F438A280022D11B /* Content.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
-		A3B076C61F4783AA0022D11B /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		A3B076C81F4786220022D11B /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
-		A3B076CA1F4787910022D11B /* PlaylistsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistsViewController.swift; sourceTree = "<group>"; };
-		A3B076CC1F4787AE0022D11B /* NotificationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
-		A3B076CF1F4787C40022D11B /* UserAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAccountViewController.swift; sourceTree = "<group>"; };
 		A3B076D11F47A33C0022D11B /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		A3B076D31F47A5B40022D11B /* CarTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarTests.swift; sourceTree = "<group>"; };
 		B4B030B75E81968C45177E3B /* Pods_ChibiLoopiOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChibiLoopiOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -178,14 +166,8 @@
 		A3B076B91F4368360022D11B /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				A3B076C61F4783AA0022D11B /* HomeViewController.swift */,
-				A3B076C81F4786220022D11B /* SearchViewController.swift */,
-				A3B076CA1F4787910022D11B /* PlaylistsViewController.swift */,
-				A3B076CC1F4787AE0022D11B /* NotificationsViewController.swift */,
-				A3B076CF1F4787C40022D11B /* UserAccountViewController.swift */,
-				A39846F81F52225200A5F5D9 /* SignUpViewController.swift */,
-				A3A62B661F5F0A910066FA5B /* CreateAccountInitialViewController.swift */,
-				A39F29721F608FD6004C972F /* CreateAccountDetailsViewController.swift */,
+				A3843A851F72C5A60037166F /* SignInViewController.swift */,
+				A3843A871F72C7010037166F /* SignUpViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -547,19 +529,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A39846F91F52225200A5F5D9 /* SignUpViewController.swift in Sources */,
-				A3B076C91F4786220022D11B /* SearchViewController.swift in Sources */,
-				A3B076C71F4783AA0022D11B /* HomeViewController.swift in Sources */,
 				A3B076D21F47A33C0022D11B /* Car.swift in Sources */,
-				A3B076CB1F4787910022D11B /* PlaylistsViewController.swift in Sources */,
-				A3A62B671F5F0A910066FA5B /* CreateAccountInitialViewController.swift in Sources */,
+				A3843A881F72C7010037166F /* SignUpViewController.swift in Sources */,
 				A3AD82E21F329A9E0073C0C2 /* User.swift in Sources */,
+				A3843A861F72C5A60037166F /* SignInViewController.swift in Sources */,
 				A3AD82B21F3298DC0073C0C2 /* AppDelegate.swift in Sources */,
 				A3AD82E41F329C3B0073C0C2 /* Post.swift in Sources */,
 				A3B076C11F438A280022D11B /* Content.swift in Sources */,
-				A3B076CD1F4787AE0022D11B /* NotificationsViewController.swift in Sources */,
-				A3B076D01F4787C40022D11B /* UserAccountViewController.swift in Sources */,
-				A39F29731F608FD6004C972F /* CreateAccountDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
