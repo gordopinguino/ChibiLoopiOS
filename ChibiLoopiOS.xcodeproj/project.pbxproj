@@ -23,6 +23,7 @@
 		A3B076C11F438A280022D11B /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B076C01F438A280022D11B /* Content.swift */; };
 		A3B076D21F47A33C0022D11B /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B076D11F47A33C0022D11B /* Car.swift */; };
 		A3B076D41F47A5B40022D11B /* CarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B076D31F47A5B40022D11B /* CarTests.swift */; };
+		A3B155D81FA1582800A03D6F /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B155D71FA1582800A03D6F /* UserProfileViewController.swift */; };
 		FB4BFC8A423B6A8B6F81BDD5 /* Pods_ChibiLoopiOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4B030B75E81968C45177E3B /* Pods_ChibiLoopiOSUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +68,7 @@
 		A3B076C01F438A280022D11B /* Content.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
 		A3B076D11F47A33C0022D11B /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		A3B076D31F47A5B40022D11B /* CarTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarTests.swift; sourceTree = "<group>"; };
+		A3B155D71FA1582800A03D6F /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
 		B4B030B75E81968C45177E3B /* Pods_ChibiLoopiOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChibiLoopiOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C4D0ECB9AE8644251CB304 /* Pods-ChibiLoopiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChibiLoopiOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChibiLoopiOS/Pods-ChibiLoopiOS.release.xcconfig"; sourceTree = "<group>"; };
 		C637F3B0AC0E588B30707BF5 /* Pods-ChibiLoopiOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChibiLoopiOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChibiLoopiOSTests/Pods-ChibiLoopiOSTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -168,6 +170,7 @@
 			children = (
 				A3843A851F72C5A60037166F /* SignInViewController.swift */,
 				A3843A871F72C7010037166F /* SignUpViewController.swift */,
+				A3B155D71FA1582800A03D6F /* UserProfileViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -530,6 +533,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3B076D21F47A33C0022D11B /* Car.swift in Sources */,
+				A3B155D81FA1582800A03D6F /* UserProfileViewController.swift in Sources */,
 				A3843A881F72C7010037166F /* SignUpViewController.swift in Sources */,
 				A3AD82E21F329A9E0073C0C2 /* User.swift in Sources */,
 				A3843A861F72C5A60037166F /* SignInViewController.swift in Sources */,
