@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0F9BCCA025224DD935BCB778 /* Pods_ChibiLoopiOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12FE7731D83A0ECDD212C90E /* Pods_ChibiLoopiOSTests.framework */; };
 		309C54C492B51D0431BDCF06 /* Pods_ChibiLoopiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63CBBB373FB21DDE2D794AE6 /* Pods_ChibiLoopiOS.framework */; };
 		9751CC8977ADEC0A0979F46B /* Pods_ChibiLoopiOS_ChibiLoopiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF908466080B280DC8A8166 /* Pods_ChibiLoopiOS_ChibiLoopiOS.framework */; };
+		A30896111FA2AB0000C62085 /* BottomBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30896101FA2AB0000C62085 /* BottomBorder.swift */; };
 		A3843A861F72C5A60037166F /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3843A851F72C5A60037166F /* SignInViewController.swift */; };
 		A3843A881F72C7010037166F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3843A871F72C7010037166F /* SignUpViewController.swift */; };
 		A3AD82B21F3298DC0073C0C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AD82B11F3298DC0073C0C2 /* AppDelegate.swift */; };
@@ -24,7 +24,6 @@
 		A3B076D21F47A33C0022D11B /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B076D11F47A33C0022D11B /* Car.swift */; };
 		A3B076D41F47A5B40022D11B /* CarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B076D31F47A5B40022D11B /* CarTests.swift */; };
 		A3B155D81FA1582800A03D6F /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B155D71FA1582800A03D6F /* UserProfileViewController.swift */; };
-		FB4BFC8A423B6A8B6F81BDD5 /* Pods_ChibiLoopiOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4B030B75E81968C45177E3B /* Pods_ChibiLoopiOSUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +48,7 @@
 		2D7AB9D191EFB8AA08B08D12 /* Pods-ChibiLoopiOS-ChibiLoopiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChibiLoopiOS-ChibiLoopiOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChibiLoopiOS-ChibiLoopiOS/Pods-ChibiLoopiOS-ChibiLoopiOS.debug.xcconfig"; sourceTree = "<group>"; };
 		63CBBB373FB21DDE2D794AE6 /* Pods_ChibiLoopiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChibiLoopiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98600004B49153733AE743DD /* Pods-ChibiLoopiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChibiLoopiOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChibiLoopiOS/Pods-ChibiLoopiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		A30896101FA2AB0000C62085 /* BottomBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBorder.swift; sourceTree = "<group>"; };
 		A3843A851F72C5A60037166F /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		A3843A871F72C7010037166F /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		A3AD82AE1F3298DC0073C0C2 /* ChibiLoopiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChibiLoopiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,11 +71,7 @@
 		A3B155D71FA1582800A03D6F /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
 		B4B030B75E81968C45177E3B /* Pods_ChibiLoopiOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChibiLoopiOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C4D0ECB9AE8644251CB304 /* Pods-ChibiLoopiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChibiLoopiOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChibiLoopiOS/Pods-ChibiLoopiOS.release.xcconfig"; sourceTree = "<group>"; };
-		C637F3B0AC0E588B30707BF5 /* Pods-ChibiLoopiOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChibiLoopiOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChibiLoopiOSTests/Pods-ChibiLoopiOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		CFCB5D4134D0F8BED7F81687 /* Pods-ChibiLoopiOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChibiLoopiOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChibiLoopiOSUITests/Pods-ChibiLoopiOSUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D5900CAB0094984A85F9645D /* Pods-ChibiLoopiOS-ChibiLoopiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChibiLoopiOS-ChibiLoopiOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChibiLoopiOS-ChibiLoopiOS/Pods-ChibiLoopiOS-ChibiLoopiOS.release.xcconfig"; sourceTree = "<group>"; };
-		E09054261592F3CED3764EFC /* Pods-ChibiLoopiOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChibiLoopiOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChibiLoopiOSTests/Pods-ChibiLoopiOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		F6FBA5510EE1B0FE5209255A /* Pods-ChibiLoopiOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChibiLoopiOSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChibiLoopiOSUITests/Pods-ChibiLoopiOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FDF908466080B280DC8A8166 /* Pods_ChibiLoopiOS_ChibiLoopiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChibiLoopiOS_ChibiLoopiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -93,7 +89,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F9BCCA025224DD935BCB778 /* Pods_ChibiLoopiOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,7 +96,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB4BFC8A423B6A8B6F81BDD5 /* Pods_ChibiLoopiOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +183,7 @@
 				A3AD82E11F329A9E0073C0C2 /* User.swift */,
 				A3B076C01F438A280022D11B /* Content.swift */,
 				A3B076D11F47A33C0022D11B /* Car.swift */,
+				A30896101FA2AB0000C62085 /* BottomBorder.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -218,10 +213,6 @@
 				B5C4D0ECB9AE8644251CB304 /* Pods-ChibiLoopiOS.release.xcconfig */,
 				2D7AB9D191EFB8AA08B08D12 /* Pods-ChibiLoopiOS-ChibiLoopiOS.debug.xcconfig */,
 				D5900CAB0094984A85F9645D /* Pods-ChibiLoopiOS-ChibiLoopiOS.release.xcconfig */,
-				C637F3B0AC0E588B30707BF5 /* Pods-ChibiLoopiOSTests.debug.xcconfig */,
-				E09054261592F3CED3764EFC /* Pods-ChibiLoopiOSTests.release.xcconfig */,
-				F6FBA5510EE1B0FE5209255A /* Pods-ChibiLoopiOSUITests.debug.xcconfig */,
-				CFCB5D4134D0F8BED7F81687 /* Pods-ChibiLoopiOSUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -253,12 +244,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A3AD82DB1F3298DC0073C0C2 /* Build configuration list for PBXNativeTarget "ChibiLoopiOSTests" */;
 			buildPhases = (
-				3A210AF2526F6B15290056DD /* [CP] Check Pods Manifest.lock */,
 				A3AD82C01F3298DC0073C0C2 /* Sources */,
 				A3AD82C11F3298DC0073C0C2 /* Frameworks */,
 				A3AD82C21F3298DC0073C0C2 /* Resources */,
-				11CB6B26DDF788B6A84F18D8 /* [CP] Embed Pods Frameworks */,
-				131F5131D706DC64D83AD9A2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -274,12 +262,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A3AD82DE1F3298DC0073C0C2 /* Build configuration list for PBXNativeTarget "ChibiLoopiOSUITests" */;
 			buildPhases = (
-				0B338342D66E8CF272CB0700 /* [CP] Check Pods Manifest.lock */,
 				A3AD82CB1F3298DC0073C0C2 /* Sources */,
 				A3AD82CC1F3298DC0073C0C2 /* Frameworks */,
 				A3AD82CD1F3298DC0073C0C2 /* Resources */,
-				B738ACDC9C4D7B4A5E41E837 /* [CP] Embed Pods Frameworks */,
-				55458DFB9983ECEF947F15D3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -368,87 +353,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0B338342D66E8CF272CB0700 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ChibiLoopiOSUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		11CB6B26DDF788B6A84F18D8 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChibiLoopiOSTests/Pods-ChibiLoopiOSTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		131F5131D706DC64D83AD9A2 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChibiLoopiOSTests/Pods-ChibiLoopiOSTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3A210AF2526F6B15290056DD /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ChibiLoopiOSTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		55458DFB9983ECEF947F15D3 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChibiLoopiOSUITests/Pods-ChibiLoopiOSUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		580397548E6C26ED07B02564 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -462,21 +366,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChibiLoopiOS-ChibiLoopiOS/Pods-ChibiLoopiOS-ChibiLoopiOS-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B738ACDC9C4D7B4A5E41E837 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChibiLoopiOSUITests/Pods-ChibiLoopiOSUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B9B28E1B1FAF3E6F0F99AECD /* [CP] Check Pods Manifest.lock */ = {
@@ -505,19 +394,25 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ChibiLoopiOS-ChibiLoopiOS/Pods-ChibiLoopiOS-ChibiLoopiOS-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AWSCognito/AWSCognito.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework",
 				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
 				"${BUILT_PRODUCTS_DIR}/AWSDynamoDB/AWSDynamoDB.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSEC2/AWSEC2.framework",
 				"${BUILT_PRODUCTS_DIR}/AWSMobileAnalytics/AWSMobileAnalytics.framework",
 				"${BUILT_PRODUCTS_DIR}/AWSS3/AWSS3.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSSNS/AWSSNS.framework",
 				"${BUILT_PRODUCTS_DIR}/AWSSimpleDB/AWSSimpleDB.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognito.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProvider.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSDynamoDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSEC2.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMobileAnalytics.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSS3.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSSNS.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSSimpleDB.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -532,6 +427,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A30896111FA2AB0000C62085 /* BottomBorder.swift in Sources */,
 				A3B076D21F47A33C0022D11B /* Car.swift in Sources */,
 				A3B155D81FA1582800A03D6F /* UserProfileViewController.swift in Sources */,
 				A3843A881F72C7010037166F /* SignUpViewController.swift in Sources */,
@@ -720,7 +616,6 @@
 		};
 		A3AD82DC1F3298DC0073C0C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C637F3B0AC0E588B30707BF5 /* Pods-ChibiLoopiOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -736,7 +631,6 @@
 		};
 		A3AD82DD1F3298DC0073C0C2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E09054261592F3CED3764EFC /* Pods-ChibiLoopiOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -752,7 +646,6 @@
 		};
 		A3AD82DF1F3298DC0073C0C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F6FBA5510EE1B0FE5209255A /* Pods-ChibiLoopiOSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = J3YLCP7U59;
@@ -767,7 +660,6 @@
 		};
 		A3AD82E01F3298DC0073C0C2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CFCB5D4134D0F8BED7F81687 /* Pods-ChibiLoopiOSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = J3YLCP7U59;
