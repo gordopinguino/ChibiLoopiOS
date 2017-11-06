@@ -9,11 +9,14 @@
 import UIKit
 
 import AWSAuthCore
+import AWSAuthUI
 import AWSCognito
 import AWSCore
 import AWSDynamoDB
 import AWSPinpoint
 import AWSS3
+import AWSGoogleSignIn
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -37,7 +40,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // set up the initialized flag
         var isInitialized = false
         
-        let didFinishLaunching = AWSSignInManager.sharedInstance().interceptApplication(
+        // Set Google login scopes before authenticating the user.
+        // Additional scopes can be added here if desired.
+        AWSGoogleSignInProvider.sharedInstance().setScopes(["profile", "openid"])
+        
+        // Register the sign in provider instances with their unique identifier
+        AWSSignInManager.sharedInstance().register(
+            signInProvider: AWSGoogleSignInProvider.sharedInstance())
+        
+        let didFinishLaunching:Bool = AWSSignInManager.sharedInstance().interceptApplication(
             application, didFinishLaunchingWithOptions: launchOptions)
         
         if (!isInitialized) {
@@ -49,16 +60,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
         return didFinishLaunching
         
-        // Initialize sign-in Google
-//        var configureError: NSError?
-//        GGLContext.sharedInstance().configureWithError(&configureError)
-//        assert(configureError == nil, "Error configuring Google services: \(configureError)")
-//
-//        GIDSignIn.sharedInstance().delegate = self
-        
-//        return true
-        
-//        return true
     }
     
     func applicationDidFinishLaunching(_ application: UIApplication) {
