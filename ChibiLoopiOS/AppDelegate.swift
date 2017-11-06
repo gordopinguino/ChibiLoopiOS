@@ -8,21 +8,66 @@
 
 import UIKit
 
+import AWSAuthCore
+import AWSCognito
+import AWSCore
+import AWSDynamoDB
+import AWSPinpoint
+import AWSS3
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
+    // AWSPinpoint
+    var pinpoint: AWSPinpoint?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        // Use Amazon Cognito
-//        let credentialProvider = AWSCognitoCredentialsProvider(regionType: .USEast1, identityPoolId: "YourIdentityPoolId")
-//        let configuration = AWSServiceConfiguration(region: .USEast1, credentialsProvider: credentialProvider)
-//        AWSServiceManager.default().defaultServiceConfiguration = configuration
+        // --- AWSPinpoint ---
         
-        return true
+        // Initialize Pinpoint
+        pinpoint = AWSPinpoint(configuration:
+            AWSPinpointConfiguration.defaultPinpointConfiguration(launchOptions: launchOptions))
+        
+        // --- AWSAuthCore ---
+        // set up the initialized flag
+        var isInitialized = false
+        
+        let didFinishLaunching = AWSSignInManager.sharedInstance().interceptApplication(
+            application, didFinishLaunchingWithOptions: launchOptions)
+        
+        if (!isInitialized) {
+            AWSSignInManager.sharedInstance().resumeSession(completionHandler: {
+                (result: Any?, error: Error?) in
+                print("Result: \(result) \n Error:\(error)")
+            })
+            isInitialized = true
+        }
+        return didFinishLaunching
+        
+        // Initialize sign-in Google
+//        var configureError: NSError?
+//        GGLContext.sharedInstance().configureWithError(&configureError)
+//        assert(configureError == nil, "Error configuring Google services: \(configureError)")
+//
+//        GIDSignIn.sharedInstance().delegate = self
+        
+//        return true
+        
+//        return true
+    }
+    
+    func applicationDidFinishLaunching(_ application: UIApplication) {
+        
+        // AWSCognito
+        let credentialProvider = AWSCognitoCredentialsProvider(regionType: .USEast1, identityPoolId: "us-east-1:56dbbe51-b45c-4eea-9d8b-8e5db8203849")
+        let configuration = AWSServiceConfiguration(region: .USEast1, credentialsProvider: credentialProvider)
+        AWSServiceManager.default().defaultServiceConfiguration = configuration
+        
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
